@@ -3,6 +3,8 @@ import Transition from '../utils/Transition';
 
 import FeaturesBg from '../images/features-bg.png';
 import FeaturesElement from '../images/features-element.png';
+import MachineImage from '../images/washing-machine.png';
+
 
 function Features() {
 
@@ -33,8 +35,8 @@ function Features() {
 
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
-            <h1 className="h2 mb-4">Explore the solutions</h1>
-            <p className="text-xl text-gray-600">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur excepteur sint occaecat cupidatat.</p>
+            <h1 className="h2 mb-4">EXPERTOS EN LINEA BLANCA</h1>
+            <p className="text-xl text-gray-600">Técnicos especializados en todas las marcas. Reparacion de Lavasecadoras. Reparación de centros de lavado, Reparacion de secadoras.</p>
           </div>
 
           {/* Section content */}
@@ -43,8 +45,8 @@ function Features() {
             {/* Content */}
             <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6 md:mt-6" data-aos="fade-right">
               <div className="md:pr-4 lg:pr-12 xl:pr-16 mb-8">
-                <h3 className="h3 mb-3">Powerful suite of tools</h3>
-                <p className="text-xl text-gray-600">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa.</p>
+                <h3 className="h3 mb-3 text-center">Servicio Técnico de Lavadoras y Secadoras</h3>
+                <p className="text-xl text-gray-600">Contamos con personal idóneo y certificado en la realización del mantenimiento correctivo en todo tipo de equipo de línea blanca. </p>
               </div>
               {/* Tabs buttons */}
               <div className="mb-8 md:mb-0">
@@ -54,13 +56,24 @@ function Features() {
                   onClick={(e) => { e.preventDefault(); setTab(1); }}
                 >
                   <div>
-                    <div className="font-bold leading-snug tracking-tight mb-1">Building the Simple ecosystem</div>
-                    <div className="text-gray-600">Take collaboration to the next level with security and administrative features built for teams.</div>
+                    <div className="font-bold leading-snug tracking-tight mb-1">Reparacion de Lavadoras Mabe</div>
+                    <div className="text-gray-600">Técnicos altamente calificados en todas las marcas con repuestos originales. Garantizamos la reparación de su electrodoméstico.</div>
                   </div>
                   <div className="flex justify-center items-center w-8 h-8 bg-white rounded-full shadow flex-shrink-0 ml-3">
-                    <svg className="w-3 h-3 fill-current" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M11.953 4.29a.5.5 0 00-.454-.292H6.14L6.984.62A.5.5 0 006.12.173l-6 7a.5.5 0 00.379.825h5.359l-.844 3.38a.5.5 0 00.864.445l6-7a.5.5 0 00.075-.534z" />
-                    </svg>
+                    <img className="relative" src={MachineImage} width="96" height="96" alt="Testimonial 01" />
+                  </div>
+                </a>
+                <a
+                  className={`flex items-center text-lg p-5 rounded border transition duration-300 ease-in-out mb-3 ${tab !== 1 ? 'bg-white shadow-md border-gray-200 hover:shadow-lg' : 'bg-gray-200 border-transparent'}`}
+                  href="#0"
+                  onClick={(e) => { e.preventDefault(); setTab(1); }}
+                >
+                  <div>
+                    <div className="font-bold leading-snug tracking-tight mb-1">Reparacion de Lavadoras LG</div>
+                    <div className="text-gray-600">Un Servicio Cerca de ti con Tecnicos Capacitados por las Mejores Marcas del Mercado</div>
+                  </div>
+                  <div className="flex justify-center items-center w-8 h-8 bg-white rounded-full shadow flex-shrink-0 ml-3">
+                    <img className="relative" src={MachineImage} width="96" height="96" alt="Testimonial 01" />
                   </div>
                 </a>
                 <a
@@ -69,13 +82,11 @@ function Features() {
                   onClick={(e) => { e.preventDefault(); setTab(2); }}
                 >
                   <div>
-                    <div className="font-bold leading-snug tracking-tight mb-1">Building the Simple ecosystem</div>
-                    <div className="text-gray-600">Take collaboration to the next level with security and administrative features built for teams.</div>
+                    <div className="font-bold leading-snug tracking-tight mb-1">Reparacion de Lavadoras Samsung</div>
+                    <div className="text-gray-600">Contamos con el respaldo de las mejores marcas, permitiéndonos así brindar la mejor garantía en sus mantenimientos y reparaciones.</div>
                   </div>
                   <div className="flex justify-center items-center w-8 h-8 bg-white rounded-full shadow flex-shrink-0 ml-3">
-                    <svg className="w-3 h-3 fill-current" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M11.854.146a.5.5 0 00-.525-.116l-11 4a.5.5 0 00-.015.934l4.8 1.921 1.921 4.8A.5.5 0 007.5 12h.008a.5.5 0 00.462-.329l4-11a.5.5 0 00-.116-.525z" fillRule="nonzero" />
-                    </svg>
+                  <img className="relative" src={MachineImage} width="96" height="96" alt="Testimonial 01" />
                   </div>
                 </a>
                 <a
@@ -84,13 +95,11 @@ function Features() {
                   onClick={(e) => { e.preventDefault(); setTab(3); }}
                 >
                   <div>
-                    <div className="font-bold leading-snug tracking-tight mb-1">Building the Simple ecosystem</div>
-                    <div className="text-gray-600">Take collaboration to the next level with security and administrative features built for teams.</div>
+                    <div className="font-bold leading-snug tracking-tight mb-1">Reparacion de Lavadoras Easy</div>
+                    <div className="text-gray-600">Damos el mejor servicio de reparación de línea blanca las 24 horas y los 365 días del año. Somos tu mejor opción, solo llámanos, nosotros vamos a donde nos solicites.</div>
                   </div>
                   <div className="flex justify-center items-center w-8 h-8 bg-white rounded-full shadow flex-shrink-0 ml-3">
-                    <svg className="w-3 h-3 fill-current" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M11.334 8.06a.5.5 0 00-.421-.237 6.023 6.023 0 01-5.905-6c0-.41.042-.82.125-1.221a.5.5 0 00-.614-.586 6 6 0 106.832 8.529.5.5 0 00-.017-.485z" fill="#191919" fillRule="nonzero" />
-                    </svg>
+                  <img className="relative" src={MachineImage} width="96" height="96" alt="Testimonial 01" />
                   </div>
                 </a>
               </div>
