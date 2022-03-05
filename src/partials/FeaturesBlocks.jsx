@@ -13,8 +13,8 @@ function FeaturesBlocks() {
 
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
-            <h2 className="h2 mb-4">How Simple works</h2>
-            <p className="text-xl text-gray-600">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur excepteur sint occaecat cupidatat.</p>
+            <h2 className="h2 mb-4">Servicio Técnico Especializado</h2>
+            <p className="text-xl text-gray-600">Los servicios que ofrecemos están garantizados, ya que nuestros técnicos son profesionales y están comprometidos con su trabajo.</p>
           </div>
 
           {/* Items */}
@@ -33,8 +33,8 @@ function FeaturesBlocks() {
                   </g>
                 </g>
               </svg>
-              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Initial Contact</h4>
-              <p className="text-gray-600 text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Refacciones originales</h4>
+              <p className="text-gray-600 text-center">Refacciones y piezas originales de las marcas.</p>
             </div>
 
             {/* 2nd item */}
@@ -49,8 +49,8 @@ function FeaturesBlocks() {
                   </g>
                 </g>
               </svg>
-              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Discovery Session</h4>
-              <p className="text-gray-600 text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Agenda una Cita</h4>
+              <p className="text-gray-600 text-center">Atenderemos su llamada y se agenda la fecha y hora que a usted prefiera.</p>
             </div>
 
             {/* 3rd item */}
@@ -64,8 +64,8 @@ function FeaturesBlocks() {
                   </g>
                 </g>
               </svg>
-              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Contracting</h4>
-              <p className="text-gray-600 text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Cotiza tu servicio</h4>
+              <p className="text-gray-600 text-center">Puedes llamarnos y cotizarme tus servicios sin compromiso.</p>
             </div>
 
             {/* 4th item */}
@@ -81,8 +81,8 @@ function FeaturesBlocks() {
                   </g>
                 </g>
               </svg>              
-              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Fast Prototyping</h4>
-              <p className="text-gray-600 text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Servicio a domicilio</h4>
+              <p className="text-gray-600 text-center">Repararemos tus electrodomesticos hasta donde estes.</p>
             </div>
 
             {/* 5th item */}
@@ -96,8 +96,8 @@ function FeaturesBlocks() {
                   </g>
                 </g>
               </svg>
-              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Design Phase</h4>
-              <p className="text-gray-600 text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Quedate Satisfecho</h4>
+              <p className="text-gray-600 text-center">Paga el total de tu servicio cuando estés satisfecho.</p>
             </div>
 
             {/* 6th item */}
@@ -113,8 +113,8 @@ function FeaturesBlocks() {
                   </g>
                 </g>
               </svg>
-              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Develop & Launch</h4>
-              <p className="text-gray-600 text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Garantía de servicio</h4>
+              <p className="text-gray-600 text-center">Arreglaremos tu problema, el servicio que tu deseas, ¡Garantizado!.</p>
             </div>
 
           </div>

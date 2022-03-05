@@ -1,8 +1,11 @@
 import React, { useState, useRef, useEffect } from 'react';
 import Transition from '../utils/Transition';
 
-import FeaturesBg from '../images/features-bg.png';
-import FeaturesElement from '../images/features-element.png';
+import FeaturesBg from '../images/talking.jpeg';
+import FeaturesElement from '../images/whirpool.png';
+import FeaturesElement2 from '../images/samsung.png';
+import FeaturesElement3 from '../images/lg.png';
+import FeaturesElement4 from '../images/mabe.png';
 import MachineImage from '../images/washing-machine.png';
 
 
@@ -63,19 +66,7 @@ function Features() {
                     <img className="relative" src={MachineImage} width="96" height="96" alt="Testimonial 01" />
                   </div>
                 </a>
-                <a
-                  className={`flex items-center text-lg p-5 rounded border transition duration-300 ease-in-out mb-3 ${tab !== 1 ? 'bg-white shadow-md border-gray-200 hover:shadow-lg' : 'bg-gray-200 border-transparent'}`}
-                  href="#0"
-                  onClick={(e) => { e.preventDefault(); setTab(1); }}
-                >
-                  <div>
-                    <div className="font-bold leading-snug tracking-tight mb-1">Reparacion de Lavadoras LG</div>
-                    <div className="text-gray-600">Un Servicio Cerca de ti con Tecnicos Capacitados por las Mejores Marcas del Mercado</div>
-                  </div>
-                  <div className="flex justify-center items-center w-8 h-8 bg-white rounded-full shadow flex-shrink-0 ml-3">
-                    <img className="relative" src={MachineImage} width="96" height="96" alt="Testimonial 01" />
-                  </div>
-                </a>
+                
                 <a
                   className={`flex items-center text-lg p-5 rounded border transition duration-300 ease-in-out mb-3 ${tab !== 2 ? 'bg-white shadow-md border-gray-200 hover:shadow-lg' : 'bg-gray-200 border-transparent'}`}
                   href="#0"
@@ -95,11 +86,24 @@ function Features() {
                   onClick={(e) => { e.preventDefault(); setTab(3); }}
                 >
                   <div>
-                    <div className="font-bold leading-snug tracking-tight mb-1">Reparacion de Lavadoras Easy</div>
+                    <div className="font-bold leading-snug tracking-tight mb-1">Reparacion de Lavadoras Whirpool</div>
                     <div className="text-gray-600">Damos el mejor servicio de reparación de línea blanca las 24 horas y los 365 días del año. Somos tu mejor opción, solo llámanos, nosotros vamos a donde nos solicites.</div>
                   </div>
                   <div className="flex justify-center items-center w-8 h-8 bg-white rounded-full shadow flex-shrink-0 ml-3">
                   <img className="relative" src={MachineImage} width="96" height="96" alt="Testimonial 01" />
+                  </div>
+                </a>
+                <a
+                  className={`flex items-center text-lg p-5 rounded border transition duration-300 ease-in-out mb-3 ${tab !== 4 ? 'bg-white shadow-md border-gray-200 hover:shadow-lg' : 'bg-gray-200 border-transparent'}`}
+                  href="#0"
+                  onClick={(e) => { e.preventDefault(); setTab(4); }}
+                >
+                  <div>
+                    <div className="font-bold leading-snug tracking-tight mb-1">Reparacion de Lavadoras LG</div>
+                    <div className="text-gray-600">Un Servicio Cerca de ti con Tecnicos Capacitados por las Mejores Marcas del Mercado</div>
+                  </div>
+                  <div className="flex justify-center items-center w-8 h-8 bg-white rounded-full shadow flex-shrink-0 ml-3">
+                    <img className="relative" src={MachineImage} width="96" height="96" alt="Testimonial 01" />
                   </div>
                 </a>
               </div>
@@ -122,7 +126,7 @@ function Features() {
                 >
                   <div className="relative inline-flex flex-col">
                     <img className="md:max-w-none mx-auto rounded" src={FeaturesBg} width="500" height="462" alt="Features bg" />
-                    <img className="md:max-w-none absolute w-full left-0 transform animate-float" src={FeaturesElement} width="500" height="44" alt="Element" style={{ top: '30%' }} />
+                    <img className="md:max-w-none absolute w-full left-0 transform animate-float" src={FeaturesElement4} width="500" height="44" alt="Element" style={{ top: '30%' }} />
                   </div>
                 </Transition>
                 {/* Item 2 */}
@@ -139,7 +143,7 @@ function Features() {
                 >
                   <div className="relative inline-flex flex-col">
                     <img className="md:max-w-none mx-auto rounded" src={FeaturesBg} width="500" height="462" alt="Features bg" />
-                    <img className="md:max-w-none absolute w-full left-0 transform animate-float" src={FeaturesElement} width="500" height="44" alt="Element" style={{ top: '30%' }} />
+                    <img className="md:max-w-none absolute w-full left-0 transform animate-float" src={FeaturesElement2} width="500" height="44" alt="Element" style={{ top: '30%' }} />
                   </div>
                 </Transition>
                 {/* Item 3 */}
@@ -157,6 +161,22 @@ function Features() {
                   <div className="relative inline-flex flex-col">
                     <img className="md:max-w-none mx-auto rounded" src={FeaturesBg} width="500" height="462" alt="Features bg" />
                     <img className="md:max-w-none absolute w-full left-0 transform animate-float" src={FeaturesElement} width="500" height="44" alt="Element" style={{ top: '30%' }} />
+                  </div>
+                </Transition>
+                <Transition
+                  show={tab === 4}
+                  appear={true}
+                  className="w-full"
+                  enter="transition ease-in-out duration-700 transform order-first"
+                  enterStart="opacity-0 translate-y-16"
+                  enterEnd="opacity-100 translate-y-0"
+                  leave="transition ease-in-out duration-300 transform absolute"
+                  leaveStart="opacity-100 translate-y-0"
+                  leaveEnd="opacity-0 -translate-y-16"
+                >
+                  <div className="relative inline-flex flex-col">
+                    <img className="md:max-w-none mx-auto rounded" src={FeaturesBg} width="500" height="462" alt="Features bg" />
+                    <img className="md:max-w-none absolute w-full left-0 transform animate-float" src={FeaturesElement3} width="500" height="44" alt="Element" style={{ top: '30%' }} />
                   </div>
                 </Transition>
               </div>

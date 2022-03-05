@@ -131,7 +131,7 @@ function Footer() {
           </ul> */}
 
           {/* Copyrights note */}
-          <div className="text-sm text-gray-600 mr-4">Made by <a className="text-blue-600 hover:underline" href="https://devpom.io/"> DevPom</a>. Derechos Reservados.</div>
+          <div className="text-sm text-gray-600 mr-4">Hecho por <a className="text-blue-600 hover:underline" href="https://devpom.io/"> DevPom</a>. Derechos Reservados.</div>
 
         </div>
 
